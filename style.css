@@ -32,3 +32,97 @@
   img{vertical-align: top;}
   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   /*--------------------*/
+
+.wrapper{
+min-height: 100%;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.header{
+    background: url(../new-project/img/header-bg.jpg)no-repeat center top / cover;
+    padding: 71px 0 0 0;
+    height: 1150px;
+}
+
+.flex_box_header{
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+}
+
+.list_menu{
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Anton';
+    margin: 0 0 0 69px;
+    align-items: center;
+}
+
+.list_menu li{
+    padding: 0 40px;
+}
+
+.tel{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Anton';
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.left_content{
+    
+    margin: 360px 0 0 0;
+    width: 511px;
+    height: 257px;
+}
+
+
+.title_left_content{
+font-family: 'Anton';
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0 0 15px 0;
+}
+
+.text_left_content{
+font-size: 100px;
+line-height: 151px;
+text-transform: uppercase;
+color: #FFFFFF;
+font-family: 'Anton';
+width: 511px;
+height: 147px;
+margin: 0 0 20px 0;
+}
+
+
+.text_ticket_left{
+font-size: 17px;
+line-height: 26px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+border: 1px solid rgb(255, 255, 255);
+width: 238px;
+height: 57px;
+padding: 15px 23px;
+}
