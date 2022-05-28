@@ -219,6 +219,31 @@ margin: 19px 0 0 36px;
 }
 
 
+.footer{
+ margin: 114px 0 0 0;
+}
+.footer_flex_box{
+    display: flex;
+}
+
+.text_footer{
+width: 244px;
+height: 49px;
+margin: 0 55px 0 0;
+font-size: 15px;
+line-height: 20px;
+font-family: 'Open Sans';
+color: #000000;
+}
+
+.text_footer_1{
+width: 244px;
+height: 49px;
+font-size: 15px;
+line-height: 20px;
+color: #000000;
+font-family: 'Open Sans';
+}
 
 
 
